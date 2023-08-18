@@ -9,6 +9,7 @@ Resource    1_payment_scenario_setup/1_payment_scenario_setup.robot
 
 *** Test Cases ***
 01_Payment using Credit Card Fails
+    #test
     Given that consumer will apply for a promo for 7 days    dev    chrome
     And consumer provided personal information
     When consumer provided invalid payment details
