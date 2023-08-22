@@ -53,3 +53,12 @@ DRIVER for chrome
 18. Open Command Line
 19. Type "python --version" and hit enter
 20. Python 3.11.4 shall be displayed
+
+=================================================
+RUN IN CMD
+=================================================
+1. Open Command Line
+2. Go to the checked out project directory
+3. cd to the location of the robot test suite
+4. Type robot 1_payment_scenario_main.robot
+5. Wait for the results

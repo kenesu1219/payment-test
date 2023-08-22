@@ -18,39 +18,39 @@ Given that consumer will apply for a promo for 7 days
 Access Website
     Open Browser    ${${env}_env}    ${${browser}}
     Maximize Browser Window
-    Sleep    5
+    Sleep    10
     
 Navigate to SIM Plans Menu
     Mouse Over                    ${home_simplans_navbar} 
-    Sleep    5
+    Sleep    10
     
 Navigate to 7 DAY SIM Plans page
     Click Element                 ${simplans_7days_option} 
-    Sleep    5
+    Sleep    10
     Element Text Should Be        ${7Days_simPlan_header}                        ${assertion_7Days_page}
-    Sleep    5
+    Sleep    10
     Scroll Element Into View      ${7Days_buyNow_button} 
-    Sleep    5
+    Sleep    10
     Click Element                 ${7Days_buyNow_button}
     Sleep    30  
 
 Pick a new number with a suggested number
     Click Element                 ${simDetails_newNumber_option}  
-    Sleep    5
+    Sleep    10
     Click Element                 ${simDetails_actualNumber_option}
-    Sleep    5
+    Sleep    10
     
 Choose Physical type of Sim
     Scroll Element Into View      ${simDetails_physicalSim_option}
     Click Element                 ${simDetails_physicalSim_option}
-    Sleep    5
+    Sleep    10
     Scroll Element Into View      ${simDetails_checkout_button}
     Click Element                 ${simDetails_checkout_button}
-    Sleep    5
+    Sleep    10
     
 Select New Customer
     Click Element                 ${customerDetails_newCusomter_option}
-    Sleep    5
+    Sleep    10
 
 Generate Unique Email
     Generate Random String Mixed
